@@ -1,36 +1,58 @@
-Mehar Singh
+# Project Title
 
-SID - 1247922
+MANCALA GAME 
 
-Resources used - brocode swing video('https://www.youtube.com/watch?v=Kmgo00avvEw&t=2721s'), lecture slides , javadocs
-
+## Description
 This Mancala Game project is a Java-based desktop application that simulates the ancient board game Mancala with a graphical user interface (GUI) using Swing. It features two distinct rulesets: Kalah Rules and Ayo Rules, offering varied gameplay experiences. The application is designed with an Object-Oriented Programming (OOP) approach
 
+## Getting Started
 
-Features:- 
+### Dependencies
+Java Development Kit (JDK)
+Integrated Development Environment (IDE) of choice
+Compatible with Windows, macOS, and Linux operating systems
+### Executing program
 
-- Two Rulesets: Play with either Kalah Rules or Ayo Rules for varied strategic gameplay.
-- Graphical User Interface: Developed using Swing, the GUI provides an intuitive and visually appealing way to interact with the game.
-- Game Persistence: Save and load game progress using the Saver class.
-- Player Profiles: Manage player information and statistics through UserProfile class.
-- Flexible UI: A TextUI class offers an alternative way to interact with the game, suitable for debugging or different user preferences.
+* How to build and run the program
 
-Java Files Overview
+* Step-by-step bullets
 
-- AyoRules.java: Implements the specific rules and mechanics of the Ayo variant of Mancala.
-- Countable.java: An interface defining methods for objects that can be counted, such as pits or stores.
-- GameNotOverException.java: Custom exception to signal that the game is not over when an end condition is checked prematurely.
-- GameRules.java: Abstract class that outlines the structure and necessary methods for game rule variants.
-- InvalidMoveException.java: Custom exception to handle invalid moves within the game.
-- KalahRules.java: Contains the rules and logic specific to the Kalah variant of Mancala.
-- MancalaDataStructure.java: Represents the data structure of the Mancala board, managing pits and stores.
-- MancalaGame.java: Central class managing the game state, interactions, and progression.
-- NoSuchPlayerException.java: Exception thrown when an operation refers to a player that does not exist.
-- Pit.java: Represents a single pit on the Mancala board and manages its stones.
-- PitNotFoundException.java: Exception thrown when a specific pit is referred to but does not exist.
-- Player.java: Defines a player in the game, holding related data such as the player's store.
-- PositionAwareButton.java: Extends JButton to include positional awareness in the game GUI.
-- Saver.java: Handles the saving and loading of game states to and from a persistent storage.
-- Store.java: Specialized pit that acts as a store for captured stones in the game.
-- UserProfile.java: Manages user information and statistics, such as games played and won.
+- cd GP4
+- gradle build
+- gradle echo
+- copy the command at the end and paste it in the terminal
+```
+use code blocks for commands
+```
+
+## Limitations
+
+What isn't done? What things cause errors?  
+
+Alot things could be improved in Mancala and Ayo. I think we had more time alot of things could be done better.
+
+
+
+## Author Information
+
+Your name and contact information including your email address
+Mehar Singh , 905-782-7319 , meharsin@uoguelph.ca
+
+## Development History
+
+Keep a log of what things you accomplish when.  You can use git's tagging feature to tag the versions or you can reference commits.
+
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [simple-readme] (https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md)
+
+
 
