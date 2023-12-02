@@ -1,0 +1,210 @@
+
+
+********
+ Gradle Layout Check 
+********
+Gradle Layout is correct.
+
+********
+ Extra files found in repo 
+********
+no extra files found
+
+********
+ Missing Readme Headings 
+********
+
+
+********
+ Build Check on repo as submitted 
+********
+> Task :clean UP-TO-DATE
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :pmdTest NO-SOURCE
+> Task :test NO-SOURCE
+Use of deprecated attribute 'VariableDeclaratorId/@Image' by XPath rule 'FinalFieldCouldBeStatic' (in ruleset 'Design'), please use @Name instead
+
+> Task :pmdMain
+Removed misconfigured rule: LoosePackageCoupling  cause: No packages or classes specified
+243 PMD rule violations were found. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/build/reports/pmd/main.html
+
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 3 executed, 1 up-to-date
+
+
+********
+ Action Listeners Implemented using lambdas 
+********
+Total Action Listeners: 10
+Total Lambda Expressions14
+
+********
+ Missing Swing Components 
+********
+JLabel
+
+
+********
+ PMD Rules Violations 
+********
+> Task :clean
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :pmdTest NO-SOURCE
+> Task :test NO-SOURCE
+
+> Task :pmdMain
+174 PMD rule violations were found. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/build/reports/pmd/main.html
+
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+
+********
+ Junit Test Results 
+********
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava FAILED
+2 actionable tasks: 2 executed
+
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/KalahCaptureStonesTest.java:22: error: constructor Player in class Player cannot be applied to given types;
+        player1 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/KalahCaptureStonesTest.java:23: error: constructor Player in class Player cannot be applied to given types;
+        player2 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/AyoCaptureStonesTest.java:22: error: constructor Player in class Player cannot be applied to given types;
+        player1 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/AyoCaptureStonesTest.java:23: error: constructor Player in class Player cannot be applied to given types;
+        player2 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/AyoDistributeStonesTest.java:22: error: constructor Player in class Player cannot be applied to given types;
+        player1 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/AyoDistributeStonesTest.java:23: error: constructor Player in class Player cannot be applied to given types;
+        player2 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/AyoMoveStonesTest.java:22: error: constructor Player in class Player cannot be applied to given types;
+        player1 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/AyoMoveStonesTest.java:23: error: constructor Player in class Player cannot be applied to given types;
+        player2 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/KalahDistributeStonesTest.java:22: error: constructor Player in class Player cannot be applied to given types;
+        player1 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/KalahDistributeStonesTest.java:23: error: constructor Player in class Player cannot be applied to given types;
+        player2 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/KalahMoveStonesTest.java:22: error: constructor Player in class Player cannot be applied to given types;
+        player1 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/src/test/java/mancala/KalahMoveStonesTest.java:23: error: constructor Player in class Player cannot be applied to given types;
+        player2 = new Player();
+                  ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+12 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 330ms
+
+
+********
+ Polymorphism implementation 
+********
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test FAILED
+
+InterfacesTest > testInterfaceImplementationDataStructure() FAILED
+    org.opentest4j.AssertionFailedError at InterfacesTest.java:83
+
+InterfacesTest > testInterfaceImplementationGameRules() FAILED
+    org.opentest4j.AssertionFailedError at InterfacesTest.java:72
+3 actionable tasks: 3 executed
+
+
+17 tests completed, 2 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/meharsin/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
