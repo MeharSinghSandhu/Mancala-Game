@@ -4,7 +4,7 @@ import mancala.InvalidMoveException;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-public class KalahRules extends GameRules {
+public class KalahRules extends GameRules { 
 
 /**
      * Constructs a new KalahRules object, initializing the game board using the superclass constructor.
