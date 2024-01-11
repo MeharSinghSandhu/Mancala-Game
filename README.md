@@ -1,6 +1,6 @@
 # Project Title
 
-MANCALA GAME 
+MANCALA GAME  
 
 ## Description
 This Mancala Game project is a Java-based desktop application that simulates the ancient board game Mancala with a graphical user interface (GUI) using Swing. It features two distinct rulesets: Kalah Rules and Ayo Rules, offering varied gameplay experiences. The application is designed with an Object-Oriented Programming (OOP) approach
