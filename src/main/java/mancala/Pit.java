@@ -9,7 +9,7 @@ import java.io.Serializable;
 public class Pit implements Countable, Serializable {
     private static final long serialVersionUID = 1L;
     private int stoneCount;
-
+ 
     /**
      * Constructs a new Pit with an initial stone count of zero.
      */
