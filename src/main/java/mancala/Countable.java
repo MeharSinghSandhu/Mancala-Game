@@ -1,6 +1,7 @@
 package mancala;
 
 /**
+
  * Interface representing objects that can have stones counted, added, and removed.
  */
 public interface Countable {
