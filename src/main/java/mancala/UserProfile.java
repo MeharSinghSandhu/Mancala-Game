@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.io.Serializable;
 
 
-/**
+/** 
  * The UserProfile class keeps track of a player's profile information, including their name 
  * and the number of games played and won in both Kalah and Ayo variants of the Mancala game.
  */
