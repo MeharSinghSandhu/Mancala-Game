@@ -1,7 +1,7 @@
 package mancala;
 import java.util.ArrayList;
 import java.io.Serializable;
-
+ 
 /**
  * Represents a player in the Mancala game. Each player has a user profile, name, and an associated store.
  */
