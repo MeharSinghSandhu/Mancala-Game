@@ -6,7 +6,7 @@ plugins {
 repositories {
     mavenCentral()
     jcenter()
-}
+} 
  
 compileJava {
     sourceCompatibility = 11
