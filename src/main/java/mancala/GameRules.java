@@ -16,8 +16,7 @@ public abstract class GameRules {
        // gameBoard.setUpPits();
         resetBoard();  
     }
-
-    
+ 
 
     /**
      * Get the number of stones in a pit.
