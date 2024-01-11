@@ -1,6 +1,6 @@
 package ui;
 
-
+ 
 
 import mancala.MancalaGame;
 import mancala.AyoRules; 
