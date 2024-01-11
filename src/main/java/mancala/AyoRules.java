@@ -1,5 +1,6 @@
 package mancala;
 
+
 public class AyoRules extends GameRules {
 /**
  * The AyoRules class defines the rules specific to the Ayo variant of the Mancala game.
