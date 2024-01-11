@@ -6,7 +6,7 @@ public class MancalaGame implements Serializable {
     private GameRules gameRules; // Make transient if GameRules isn't Serializable
     private Player currentPlayer;
     private ArrayList<Player> players;
-
+ 
     // Constructor
         public MancalaGame() {
         // Create UserProfiles for both players
