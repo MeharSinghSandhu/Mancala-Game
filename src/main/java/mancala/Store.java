@@ -1,7 +1,7 @@
 package mancala;
 import java.io.Serializable;
 
-/**
+/** 
  * The Store class represents the store in the Mancala game, 
  * which is a place where each player collects stones during the game.
  */
